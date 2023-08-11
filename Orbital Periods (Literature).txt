@@ -1,0 +1,8 @@
+Mercury;0.241
+Venus;0.615 
+Earth;1
+Mars;1.88
+Jupiter;11.86
+Saturn;29.46
+Uranus;84.01
+Neptune;164.8
