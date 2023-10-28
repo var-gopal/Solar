@@ -160,7 +160,7 @@ class Simulation:  # class to create simulation object
                 size = 0.007 * self.max_orbit
             else:  # planets
                 size = 0.015 * self.max_orbit
-            self.patches.append(ax.add_patch(plt.Circle(celestial.pos[1], size, color=celestial.colour, animated=True, label=celestial.name)))
+            self.patches.append(ax.add_patch(plt.Circle(celestial.pos[1], size, color=celestial.colour, animated=True, label=celestial.name))) # type: ignore
         
         # setting plot properties
         ax.axis('scaled')
